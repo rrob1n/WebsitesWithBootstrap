@@ -47,6 +47,9 @@ img{
 }
 
 /* Navbar */
+.navbar{
+    box-shadow: var(--box-shadow);
+}
 
 .navbar-nav .nav-link{
     font-weight: 500;
@@ -76,4 +79,12 @@ img{
     background-color: var(--c-brand-light);
     border-color: var(--c-brand-light);
     color: white;
+}
+
+/* Hero */
+
+#hero{
+    background:linear-gradient(#00000088,#0000009f),url(../img/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
 }
